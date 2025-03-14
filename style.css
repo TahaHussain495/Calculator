@@ -1,0 +1,233 @@
+/* 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator {
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 5px;
+    /* background-color: rgb(240, 239, 239); */
+
+/* } */
+/* input {
+    width: 320px;
+    border: none;
+    padding: 20px;
+    margin-left: 6px;
+    font-size: 30px;
+    text-align: right;
+}
+
+button {
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    font-size: 23px;
+    
+}
+
+#btn-1 {
+    /* background-color: rgb(196, 192, 192); */
+/* } */
+
+/* #btn-2 { */
+    /* background-color: rgb(131, 128, 128); */
+    /* background-color: rgb(10, 196, 209); */
+/* } */
+
+/* #btn-3 { */
+    /* font-weight: 545; */
+/* } */
+ 
+
+
+
+
+
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+     margin: auto;
+     margin-top:10px;
+     border: 1px solid rgb(0, 0, 0);
+     width: min-content;
+     background-color: #f3f3f3;
+}
+.nav{
+       display: flex;
+       justify-content: space-between;
+       align-items: center    
+}
+.logo{
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 0px 16px;
+    gap: 15px;
+}
+.logo img{
+    width:15px;
+    height:15px;
+}
+.logo p{
+   font-size: 12px;    
+}
+.container ul{
+
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:fit-content;
+    font-size: 18px;
+}
+
+.container ul .red-hover{
+                     
+    padding: 10px 15px 10px 15px;
+}
+.container ul .red-hover:hover{
+    background-color: red;
+    color: white;
+    
+
+}
+.container ul .hover1{
+    
+    padding: 10px 15px 10px 15px;
+}
+.container ul .hover1:hover{
+    background-color: #d3d3d3a6;
+    
+}
+.container ul .hover2{
+    padding: 10px 15px 10px 15px;
+    font-size:18px;
+}
+.container ul .hover2:hover{
+    background-color: #d3d3d3a6;
+    
+
+}
+.container1 ul{
+    
+    padding:0px 8px 0px 0px;
+}
+.container1 ul li img{
+    width: 23px;
+}
+.nav1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px 0px 10px;
+}
+.logo1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo1 h2{
+    font-size:19px;
+    font-weight: 100;
+}
+.logo1 h3{
+    font-size:20px;
+    font-weight: 500;
+}
+.logo1 p img{
+              width:26px;
+}
+.container3 input{
+   width: 100%;
+   height: 50px;
+   text-align: right;
+   padding:0px 5px 0px 5px;
+   font-size: 40px;
+   font-weight: 600;
+   caret-color: transparent;
+   border: none;
+   outline: none;
+   background-color: #f3f3f3;
+}
+.container4{
+     display: flex;
+     gap: 35px;
+     justify-content: center;
+     padding:0px 0px 5px 0px;
+     font-size:13px;
+     
+}
+.container4 span:first-child{
+ 
+    color:#9b9b9b; 
+
+}
+.container4 span:nth-child(2){
+ 
+    color:#9b9b9b; 
+
+}
+.container4 span:last-child{
+ 
+    color:#9b9b9b; 
+
+}
+.container5 .btn1 ,.container5 .btn2,.container5 .btn3 ,.container5 .btn4 ,.container5 .btn5 ,.container5 .btn6{
+    display: flex;
+    width:100%;
+    gap: 3px;
+    justify-content: center;
+    padding:0px 4px 3px 4px;
+}
+.container5 .btn1 button,.container5 .btn2 button,.container5 .btn3 button,.container5 .btn4 button,.container5 .btn5 button,.container5 .btn6 button {
+    width:76px;
+    height:52.1px;
+    font-size: 17px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 0px 1px #d3d3d3;
+}
+.container5 .btn1 button,.container5 .btn2 button{
+    background-color: #f9f9f9;
+}
+.container5 .btn3 button:last-child,.container5 .btn4 button:last-child,.container5 .btn5 button:last-child{
+    background-color: #f9f9f9;
+}
+.container5 .btn6 button:last-child{
+    background-color: #005a9e;
+    color: white;
+}
+
+.container3 > #output {
+    font-size: 16px;
+    color: grey;
+}
+
+
+
+
+
+
+
+
